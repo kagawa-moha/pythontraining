@@ -1,11 +1,8 @@
-mylar = float(input("Emter the number to test: "))
+num1 = float(input("Emter the number to test: "))
+num1 = float(input("Emter the number to test: "))
+num1 = float(input("Emter the number to test: "))
 
-if (mylar>=50) and (mylar==60) and (mylar<=70):
-    if mylar > 65:
-        print("High")
-    elif mylar < 65 and mylar > 55:
-        print("Medium")
-    else:
-        print("Low")
-else:
-    print("Equal")
+if (num1>num2) and (num1<num3):
+    print("num1")
+elif (num1<num2) and (num2<num3):
+    print("")
