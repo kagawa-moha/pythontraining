@@ -1,6 +1,6 @@
-Area = ("1/2 * base * height")
-base = 6
-height = 10
+#area = ("1/2 * base * height")
+base = float(input("Enter the base "))
+height = float(input("Enter the height "))
 #Substitute the values in the formular
-A = 1/2 * 6 * 10
-print("Area")
+a = 1/2 * base * height
+print(a)
