@@ -1,12 +1,14 @@
+length=float("input length")
+
 #volume
-def function(x,y,z):
+def function1(x,y,z):
     return x * y *z
-v = fuction(2,3,5)
+v = function1(2,3,5)
 print(v)
 #area
-def function(x,y):
+def function2(x,y):
     return x * y 
-a = fuction(2,3)
+a = function2(2,3)
 print(a)
 
 
